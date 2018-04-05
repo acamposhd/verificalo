@@ -532,8 +532,32 @@ if (typeof NProgress != 'undefined') {
 			console.log('Plot1');
 
 
+
 			$.getJSON("server.json", function(data) {
+				$("#totalVisitas").html(data["totalVisitas"]);
+				$("#interaccionesNoticias").html(data["interaccionesNoticias"]);
+				$("#tema1").html(data["tema1"]);
+				$("#tema2").html(data["tema2"]);
+				$("#tema3").html(data["tema3"]);
+				$("#cantidad1").html(data["cantidad1"]);
+				$("#cantidad2").html(data["cantidad2"]);
+				$("#cantidad3").html(data["cantidad3"]);
+				$("#porcientoReal").html(data["porcientoReal"]);
+				$("#porcientoFake").html(data["porcientoFake"]);
+				$("#interaccionesNoticia").html(data["interaccionesNoticia"]);
+				$("#gradoFalsedad").html(data["gradoFalsedad"]);
+				$("#interaccionesPorciento").html(data["interaccionesPorciento"]);
+				$("#porcientoPeriodicos").html(data["porcientoPeriodicos"]);
+				$("#porcientoBlogs").html(data["porcientoBlogs"]);
+				$("#porcientoRedesSociales").html(data["porcientoRedesSociales"]);
+				$("#porcientoOtros").html(data["porcientoOtros"]);
+				$("#porcientoOpinion").html(data["porcientoOpinion"]);
+				$("#fechaPublicacion").html(data["fechaPublicacion"]);
+				$("#interacciones").html(data["interacciones"]);
+				$("#sentimientos").html(data["sentimientos"]);
+	
 				$.plot( $("#chart_plot_01"), [ data["waveGraphVar1"], data["waveGraphVar2"] ],  chart_plot_01_settings );
+
 			});
 
 

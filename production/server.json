@@ -16,9 +16,27 @@
 	    [1325743200000,  20],
 	    [1325829600000,  85],
 	    [1325916000000,  7 ]
-	]
-	
-
-
+	],
+	"viralityLevel":50,
+	"sentimientos":100,
+	"interacciones":200,
+	"interaccionesPorciento":"57%",
+	"gradoFalsedad":"66%",
+	"interaccionesNoticias":28,
+	"porcientoFake":"68%",
+	"porcientoReal":"32%",
+	"totalVisitas":"Total de visitas: 200",
+	"fechaPublicacion":"03/04/2018",
+	"porcientoPeriodicos":"15%",
+	"porcientoBlogs":"20%",
+	"porcientoRedesSociales":"25%",
+	"porcientoOpinion":"30%",
+	"porcientoOtros":"35%",
+	"tema1":"AMLO",
+	"tema2":"Morena",
+	"tema3":"Voto",
+	"cantidad1":"25",
+	"cantidad2":"17",
+	"cantidad3":"20"
 
 }
